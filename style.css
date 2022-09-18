@@ -1,7 +1,15 @@
 body{
     background-color: #E4FDE1;
 }
-.nome{
+li{
+    list-style: none;
+}
+.nome{ 
+    text-align: center;
+}
+
+.nome h1{
+    font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #descricao{
@@ -29,7 +37,20 @@ em{
     font-size: 20px;
 }
 
+li:nth-of-type(odd){
+    text-decoration: underline;
+}
+
 .indice{
     font-size: 24px;
     font-weight: bold;
+}
+
+.inline{
+    display: inline-block;
+}
+
+#foto{
+    padding: 20px;
+    background-color: #8ACB88;
 }
