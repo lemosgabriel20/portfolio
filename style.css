@@ -1,0 +1,56 @@
+body{
+    background-color: #E4FDE1;
+}
+li{
+    list-style: none;
+}
+.nome{ 
+    text-align: center;
+}
+
+.nome h1{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#descricao{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+em{
+    color: goldenrod;
+}
+.git{
+    font-size: 20px;
+}
+.github{
+    font-size: 19px;
+}
+.html{
+    font-size: 18px;
+}
+.css{
+    font-size: 18px;
+}
+.javascript{
+    font-size: 19px;
+}
+.react{
+    font-size: 20px;
+}
+
+li:nth-of-type(odd){
+    text-decoration: underline;
+}
+
+.indice{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inline{
+    display: inline-block;
+}
+
+#foto{
+    padding: 20px;
+    background-color: #8ACB88;
+}
